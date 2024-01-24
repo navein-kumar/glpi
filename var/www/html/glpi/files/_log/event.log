@@ -1,0 +1,30 @@
+2023-12-04 13:09:09 [@glpi]
+[login] 3: Failed login for glpi from IP 172.19.0.7
+2023-12-04 13:09:16 [@glpi]
+[login] 3: glpi login from IP 172.19.0.7
+2023-12-06 10:44:28 [@glpi]
+[login] 3: glpi login from IP 172.19.0.7
+2023-12-06 10:48:59 [@glpi]
+[login] 3: Failed login for  from IP 172.19.0.7
+2023-12-06 10:49:22 [@glpi]
+[login] 3: glpi login from IP 172.19.0.7
+2023-12-06 11:07:53 [2@glpi]
+[setup] 3: glpi edited the emails notifications configuration
+2023-12-10 21:10:24 [@glpi]
+[login] 3: glpi login from IP 172.19.0.8
+2023-12-18 11:25:32 [@glpi]
+[login] 3: glpi login from IP 172.19.0.8
+2023-12-26 11:43:37 [@glpi]
+[login] 3: glpi login from IP 172.19.0.8
+2023-12-26 11:52:39 [@glpi]
+[login] 3: glpi login from IP 172.19.0.8
+2023-12-29 14:32:32 [@glpi]
+[login] 3: glpi login from IP 172.19.0.8
+2023-12-29 14:44:06 [@glpi]
+[login] 3: glpi login from IP 172.19.0.1
+2023-12-29 14:49:18 [2@glpi]
+[setup] 3: glpi edited the emails notifications configuration
+2024-01-02 07:14:26 [@glpi]
+[login] 3: glpi login from IP 172.19.0.8
+2024-01-06 10:52:21 [@glpi]
+[login] 3: glpi login from IP 172.19.0.8

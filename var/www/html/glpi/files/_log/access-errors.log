@@ -1,0 +1,2 @@
+2023-12-29 14:50:06 [2@glpi]
+CSRF check failed for User ID: 2 at /front/crontask.form.php

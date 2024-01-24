@@ -1,0 +1,144 @@
+[2023-12-04 13:08:12] glpiphplog.WARNING: Test logger  
+[2023-12-04 13:14:01] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1044): Access denied for user 'glpi_user'@'%' to database 'glpidb' in /var/www/html/glpi/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:412                           DBmysql->__construct()
+  src/DBConnection.php:501                           DBConnection::switchToMaster()
+  inc/config.php:116                                 DBConnection::establishDBConnection()
+  inc/includes.php:55                                include_once()
+  front/cron.php:41                                  include()
+  
+[2023-12-04 13:14:41] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1044): Access denied for user 'glpi_user'@'%' to database 'glpidb' in /var/www/html/glpi/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:412                           DBmysql->__construct()
+  src/DBConnection.php:501                           DBConnection::switchToMaster()
+  inc/config.php:116                                 DBConnection::establishDBConnection()
+  inc/includes.php:55                                include_once()
+  front/preference.php:38                            include()
+  public/index.php:82                                require()
+  
+[2023-12-04 13:14:43] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1044): Access denied for user 'glpi_user'@'%' to database 'glpidb' in /var/www/html/glpi/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:412                           DBmysql->__construct()
+  src/DBConnection.php:501                           DBConnection::switchToMaster()
+  inc/config.php:116                                 DBConnection::establishDBConnection()
+  inc/includes.php:55                                include_once()
+  front/preference.php:38                            include()
+  public/index.php:82                                require()
+  
+[2023-12-04 13:14:47] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1044): Access denied for user 'glpi_user'@'%' to database 'glpidb' in /var/www/html/glpi/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:412                           DBmysql->__construct()
+  src/DBConnection.php:501                           DBConnection::switchToMaster()
+  inc/config.php:116                                 DBConnection::establishDBConnection()
+  inc/includes.php:55                                include_once()
+  index.php:87                                       include()
+  public/index.php:82                                require()
+  
+[2023-12-04 13:16:01] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1049): Unknown database 'glpidb' in /var/www/html/glpi/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:412                           DBmysql->__construct()
+  src/DBConnection.php:501                           DBConnection::switchToMaster()
+  inc/config.php:116                                 DBConnection::establishDBConnection()
+  inc/includes.php:55                                include_once()
+  front/cron.php:41                                  include()
+  
+[2023-12-06 10:58:01] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to decrypt string. It may have been crypted with another key. in /var/www/html/glpi/src/GLPIKey.php at line 432
+  Backtrace :
+  src/GLPIKey.php:432                                trigger_error()
+  src/GLPIMailer.php:94                              GLPIKey->decrypt()
+  src/NotificationEventMailing.php:122               GLPIMailer->__construct()
+  src/QueuedNotification.php:602                     NotificationEventMailing::send()
+  src/CronTask.php:1018                              QueuedNotification::cronQueuedNotification()
+  front/cron.php:84                                  CronTask::launch()
+  
+[2023-12-06 10:58:04] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to decrypt string. It may have been crypted with another key. in /var/www/html/glpi/src/GLPIKey.php at line 432
+  Backtrace :
+  src/GLPIKey.php:432                                trigger_error()
+  src/GLPIMailer.php:94                              GLPIKey->decrypt()
+  src/NotificationEventMailing.php:122               GLPIMailer->__construct()
+  src/QueuedNotification.php:602                     NotificationEventMailing::send()
+  src/CronTask.php:1018                              QueuedNotification::cronQueuedNotification()
+  front/cron.php:84                                  CronTask::launch()
+  
+[2023-12-06 10:58:07] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to decrypt string. It may have been crypted with another key. in /var/www/html/glpi/src/GLPIKey.php at line 432
+  Backtrace :
+  src/GLPIKey.php:432                                trigger_error()
+  src/GLPIMailer.php:94                              GLPIKey->decrypt()
+  src/NotificationEventMailing.php:122               GLPIMailer->__construct()
+  src/QueuedNotification.php:602                     NotificationEventMailing::send()
+  src/CronTask.php:1018                              QueuedNotification::cronQueuedNotification()
+  front/cron.php:84                                  CronTask::launch()
+  
+[2023-12-06 10:58:09] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to decrypt string. It may have been crypted with another key. in /var/www/html/glpi/src/GLPIKey.php at line 432
+  Backtrace :
+  src/GLPIKey.php:432                                trigger_error()
+  src/GLPIMailer.php:94                              GLPIKey->decrypt()
+  src/NotificationEventMailing.php:122               GLPIMailer->__construct()
+  src/QueuedNotification.php:602                     NotificationEventMailing::send()
+  src/CronTask.php:1018                              QueuedNotification::cronQueuedNotification()
+  front/cron.php:84                                  CronTask::launch()
+  
+[2023-12-06 10:58:12] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to decrypt string. It may have been crypted with another key. in /var/www/html/glpi/src/GLPIKey.php at line 432
+  Backtrace :
+  src/GLPIKey.php:432                                trigger_error()
+  src/GLPIMailer.php:94                              GLPIKey->decrypt()
+  src/NotificationEventMailing.php:122               GLPIMailer->__construct()
+  src/QueuedNotification.php:602                     NotificationEventMailing::send()
+  src/CronTask.php:1018                              QueuedNotification::cronQueuedNotification()
+  front/cron.php:84                                  CronTask::launch()
+  
+[2023-12-06 11:04:01] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to decrypt string. It may have been crypted with another key. in /var/www/html/glpi/src/GLPIKey.php at line 432
+  Backtrace :
+  src/GLPIKey.php:432                                trigger_error()
+  src/GLPIMailer.php:94                              GLPIKey->decrypt()
+  src/NotificationEventMailing.php:122               GLPIMailer->__construct()
+  src/QueuedNotification.php:602                     NotificationEventMailing::send()
+  src/CronTask.php:1018                              QueuedNotification::cronQueuedNotification()
+  front/cron.php:84                                  CronTask::launch()
+  
+[2023-12-06 11:04:04] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to decrypt string. It may have been crypted with another key. in /var/www/html/glpi/src/GLPIKey.php at line 432
+  Backtrace :
+  src/GLPIKey.php:432                                trigger_error()
+  src/GLPIMailer.php:94                              GLPIKey->decrypt()
+  src/NotificationEventMailing.php:122               GLPIMailer->__construct()
+  src/QueuedNotification.php:602                     NotificationEventMailing::send()
+  src/CronTask.php:1018                              QueuedNotification::cronQueuedNotification()
+  front/cron.php:84                                  CronTask::launch()
+  
+[2023-12-06 11:04:06] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to decrypt string. It may have been crypted with another key. in /var/www/html/glpi/src/GLPIKey.php at line 432
+  Backtrace :
+  src/GLPIKey.php:432                                trigger_error()
+  src/GLPIMailer.php:94                              GLPIKey->decrypt()
+  src/NotificationEventMailing.php:122               GLPIMailer->__construct()
+  src/QueuedNotification.php:602                     NotificationEventMailing::send()
+  src/CronTask.php:1018                              QueuedNotification::cronQueuedNotification()
+  front/cron.php:84                                  CronTask::launch()
+  
+[2023-12-06 11:04:09] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to decrypt string. It may have been crypted with another key. in /var/www/html/glpi/src/GLPIKey.php at line 432
+  Backtrace :
+  src/GLPIKey.php:432                                trigger_error()
+  src/GLPIMailer.php:94                              GLPIKey->decrypt()
+  src/NotificationEventMailing.php:122               GLPIMailer->__construct()
+  src/QueuedNotification.php:602                     NotificationEventMailing::send()
+  src/CronTask.php:1018                              QueuedNotification::cronQueuedNotification()
+  front/cron.php:84                                  CronTask::launch()
+  
+[2023-12-06 11:04:12] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to decrypt string. It may have been crypted with another key. in /var/www/html/glpi/src/GLPIKey.php at line 432
+  Backtrace :
+  src/GLPIKey.php:432                                trigger_error()
+  src/GLPIMailer.php:94                              GLPIKey->decrypt()
+  src/NotificationEventMailing.php:122               GLPIMailer->__construct()
+  src/QueuedNotification.php:602                     NotificationEventMailing::send()
+  src/CronTask.php:1018                              QueuedNotification::cronQueuedNotification()
+  front/cron.php:84                                  CronTask::launch()
+  
